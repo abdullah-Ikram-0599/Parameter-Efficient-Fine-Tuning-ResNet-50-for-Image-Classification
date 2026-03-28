@@ -1,0 +1,5 @@
+torch
+torchvision
+gradio>=4.0
+pillow
+numpy
