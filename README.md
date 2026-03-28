@@ -1,4 +1,4 @@
-# Parameter-Efficient Fine-Tuning of ResNet-50 for Image Classification
+# Parameter-Efficient Fine-Tuning (PEFT) f ResNet-50 for Image Classification
 
 **Convolutional Adapter-based PEFT on ResNet-50 — achieving 89.2% accuracy on Oxford Flowers 102 dataset with only 2.65% trainable parameters.**
 
