@@ -1,6 +1,6 @@
 # Parameter-Efficient Fine-Tuning (PEFT) f ResNet-50 for Image Classification
 
-**Convolutional Adapter-based PEFT on ResNet-50 — achieving 89.2% accuracy on Oxford Flowers 102 dataset with only 2.65% trainable parameters.**
+**Convolutional Adapter-based PEFT on ResNet-50 — achieving 89.2% test accuracy on Oxford Flowers 102 dataset with only 2.65% trainable parameters.**
 
 ## Overview
 
@@ -73,5 +73,5 @@ The Conv-Adapter PEFT approach achieves compelling results compared to full fine
 | Full Fine-Tuning (baseline) | 100% | 94.6% |
 | **Conv-Adapter PEFT ** | **~2.65%** | **89.2%** |
 
-- **97.35% fewer trainable parameters** with only a modest accuracy trade-off
-- Retains **~95% of full fine-tuning accuracy**, demonstrating the efficiency of adapter-based PEFT
+- **97.35%** fewer trainable parameters** with only a modest accuracy trade-off
+- Retains **~95%** of full fine-tuning accuracy**, demonstrating the efficiency of adapter-based PEFT
